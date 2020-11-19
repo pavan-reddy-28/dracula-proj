@@ -1,0 +1,51 @@
+
+.custom-switch.custom-switch-lg  {
+    /* padding-right:  6rem; */
+    margin-left: -1.5rem;
+    padding-bottom: 0.5rem;
+    align-content: center;
+}
+
+
+.travel-mode-name {
+    /* padding-right: 4rem; */
+    font-size: 1.2rem;
+    color:brown;
+    font-family: 'nunito';
+    margin: 5px;
+   
+}
+.custom-switch.custom-switch-lg :before {
+    height: 1.5rem;
+    width: calc(3rem + 0.75rem);
+    border-radius: 4rem;
+   
+}
+
+.custom-switch.custom-switch-lg :after {
+    width: calc(2rem - 6px);
+    height: calc(2rem - 12px);
+    border-radius: calc(3rem - (2rem / 2));
+  
+}
+
+.custom-switch.custom-switch-lg .custom-control-input:checked ~ :after {
+    transform: translateX(calc(2rem - 0.25rem));
+}
+
+.travelModeButton{
+    /* position: fixed;  */
+    /* right: 0; */
+    /* top: 15%; */
+     /* padding: 0; */
+     /* padding-right: 5px; */
+     margin-right: 3rem;
+     padding:0;
+   
+ }
+ .travelModeButton:disabled{
+    
+     opacity: 1;
+    
+ }
+
